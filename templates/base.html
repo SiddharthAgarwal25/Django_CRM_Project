@@ -1,0 +1,16 @@
+{%  load static  %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0" charset="UTF-8">
+    <title>CRM APP</title>
+    <link href="{% static 'css/styles.css' %}"  rel="stylesheet" />
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body>
+        {% include 'navbar.html' %}
+        {% block content %}
+        {%endblock content %}
+    {% include "scripts.html" %}
+</body>
+</html>
