@@ -1,7 +1,6 @@
-# django_crm_project
+# Sales Spot 
 
-Django CRM
-Django CRM is a web application built using Django, a popular Python web framework, for managing customer relationships. It offers a range of features to help businesses of all sizes track leads, contacts, and sales opportunities, as well as analyze customer interactions and gain insights into customer behavior.
+Sales Spot is a web application built using Django, a popular Python web framework, for managing customer relationships. It offers a range of features to help businesses of all sizes track leads, contacts, and sales opportunities, as well as analyze customer interactions and gain insights into customer behavior.
 
 Features
 Easy to use interface for managing leads, contacts, and sales opportunities
