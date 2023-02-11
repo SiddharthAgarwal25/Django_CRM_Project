@@ -7,5 +7,11 @@ urlpatterns = [
     path('create/',LeadCreateView.as_view(), name="lead-create"),
     path('<int:pk>/', LeadDetailView.as_view() ,name='lead-detail'),
     path('<int:pk>/update', LeadUpdateView.as_view(), name='lead-update'),
-    path('<int:pk>/delete', LeadDeleteView.as_view(), name='lead-delete')
+    path('<int:pk>/delete', LeadDeleteView.as_view(), name='lead-delete'),
+    path('<int:pk>/assign_agent', AssignAgentView.as_view(), name='assign-agent'),
+    path('categories/', CategoryListView.as_view(), name='category-list'),
+    path('<int:pk>/categories/', CategoryDetailView.as_view(), name='category-detail'),
+    path('<int:pk>/categories/update/', LeadCategoryUpdateView.as_view(), name='category-update'),
+    path('categories/<int:pk>/delete/', CategoryDeleteView.as_view(), name='category-delete'),
+    path('create-category/', CategoryCreateView.as_view(), name='category-create'),
 ]
